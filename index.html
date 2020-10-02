@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <title>Akan-Name</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -80,33 +80,33 @@
         </div>
 
     </div>
-    <div>
-        <form name="myForm" class="Form" onsubmit="validate()">
+    <div class="container">
+        <form name="myForm">
             <div class="form-group"> 
-                <label for="myNumber">Year</label>
-                <input type="Number" class="form-control" placeholder="Year" id="year">
+                <label for="year">year</label>
+                <input type="number" class="form-control" placeholder="Year" id="year">
             </div>
             <div class="form-group"> 
-                <label for="myNumber">Month</label>
-                <input type="Number" class="form-control" placeholder="Month" id="Month">>
+                <label for="Month">Month</label>
+                <input type="number" class="form-control" placeholder="Month" id="month">
 
             </div>
             <div  class="form-group"> 
-                <label for="myNumber">Day</label>
-                <input type="Number" class="form-control" placeholder="Day" id="Day">
+                <label for="Day">Day</label>
+                <input type="number" class="form-control" placeholder="Day" id="day">
             </div>
             <div class="radio">
-                <label class="gender" >
-                    <input class="gender" type="radio" name="genger" id="male">Male
-                    <input class="gender" type="radio" name="gender" id="Female">Female
+                <label class="gender">
+                    <input class="radio" type="radio" name="gender" id="male">Male
+                    <input class="radio" type="radio" name="gender" id="female">Female
 
 
                 </label>
             </div>
-            <button type="submit" class="btn-primary" onclick="name()">click</button>
+            <button type="button" class="btn-primary" onclick="myClick()">click</button>
         </form>
     </div>
-<link rel="stylesheet" href="js/script.js.css">
+<script src="js/script.js"></script>
 </body>
 
 </html>
