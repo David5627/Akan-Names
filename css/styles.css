@@ -14,12 +14,12 @@ p{
 
 .Davy{
     background-color:white;
-    background-image: url("/images/davy");
+    background-image: url("../images/davy");
     background-size: cover;
     color: white;
 }
 body{
-    background-image: url("/images/davy");
+    background-image: url("../images/davy");
     background-size: cover;
     color: white;
 }
