@@ -17,19 +17,19 @@ function myClick(){
     var k = me.getDay();
     
     if(k===0){
-        alert("Sunday");
+        ("Sunday");
     }else if(k===1){
-        alert("Monday");
+        ("Monday");
     }else if(k===2){
-        alert("Tuesday");
+        ("Tuesday");
     }else if(k===3){
-        alert("Wednesday");
+        ("Wednesday");
     }else if(k===4){
-        alert("Thursday");
+        ("Thursday");
     }else if(k===5){
-        alert("Friday");
+        ("Friday");
     }else if(k===6){
-        alert("Saturday");
+        ("Saturday");
     }
     if(year==""||year>3040){
         alert("insert a valid year");
