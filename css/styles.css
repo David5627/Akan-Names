@@ -15,3 +15,7 @@ p{
 .Davy{
     background-color:white;
 }
+body{
+    background-image: url("/images/Happy-New");
+    background-size: cover;
+}
