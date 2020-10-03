@@ -37,7 +37,7 @@ function myClick(){
     }else if(Month=="" ||Month>12){
         alert("Enter a valid month");
     }else if(day=="" ||day>31){
-        alert("Enter a valid month");
+        alert("Enter a valid day");
     }else if(document.getElementById("male").checked==true && document.getElementById("female").checked==false){ 
         alert("Your Akan name is" + maleName[k]);
     
