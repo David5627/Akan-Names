@@ -2,6 +2,8 @@
 In Ghana`s culture names are specifically given according to the day of birth.
 
 ## DAVID KILONZO
+This is all about me.You can view my portfolio to know about me in the link below.
+* `https://david5627.github.io/my-portfolio/
 
 #### Instructions
 * you can clone this repositorys in your own local machines/systems.
