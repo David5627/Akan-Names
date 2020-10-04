@@ -1,7 +1,7 @@
-// var CC, MM, DD, d, dayvalue;
-// var dayName=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-// var maleName=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-// var femaleName=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+var CC, MM, DD, d, dayvalue;
+var dayName=["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var maleName=["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var femaleName=["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 function myClick(){
     var year = document.getElementById("year").value;
@@ -11,7 +11,7 @@ function myClick(){
     var femaleName = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
     var me = new Date();
-    me.setDate(parseInt(day));
+    me.setDate(parseInt(day)-1);
     me.setMonth(parseInt(Month)-1);
     me.setFullYear(parseInt(year));
     var k = me.getDay();
